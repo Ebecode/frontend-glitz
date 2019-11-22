@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+
+body,html {
+    margin:0;
+    /* padding: 0; */
+    height: 100vh;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    background:#6c5ce7;
+    box-sizing: border-box;
+}
+.box {
+    background: linear-gradient(125deg,#6c5ce7,#fab1a0);
+    width: 500px;
+    
+    padding: 2rem;
+    text-align: center;
+    box-shadow: 0 0 20px #000;
+    color: #fff;
+}
+
+.box .t1 {
+    text-transform: uppercase;
+    font-size: 3rem;
+}
+.box .t2 {
+    display: block;
+    font-size: 2.1rem;
+}
+.sub {
+    font-size: 1rem;
+    margin: -1rem auto 1rem auto;
+}
+
+.email {
+    border: 0;
+    display: block;
+    margin: 0 auto;
+    padding: 0.7rem 2rem;
+    border-radius: 2rem;
+    background: rgba(197, 162, 253, 0.6);
+    outline: 0;
+    color: #333;
+    font-size: 0.7rem;
+    transition: 0.3s linear;
+}
+.email:focus {
+    background: rgba(222, 206, 248, 0.6);
+}
+
+.go {
+    border-radius: 100%;
+    border : 0;
+    width: 40px;
+    height: 40px;
+    background: #6c5ce7;
+    position: relative;
+    z-index: 2;
+    top: -42px;
+    left: 105px;
+    color: #fff;
+    cursor: pointer;
+    transition: 0.3s linear;
+}
+.go:hover {
+    opacity: 0.7;
+}
